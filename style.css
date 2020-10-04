@@ -6,10 +6,10 @@ html {
 }
 
 body {
-    background-color: #292D3E;
-    margin: 0px;
-	height: 100%;
-	transition: height 250ms ease;
+	background-color: #1d2021;
+	background-image: url("https://cdn.pixabay.com/photo/2016/11/19/18/58/portland-1840765_960_720.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 a {
@@ -36,7 +36,7 @@ a {
 	overflow: hidden; /* For hiding scrollbar */
 }
 
-#clock, #date, .bookmark-title, a {
+#clock, #date, .bookmark-title {
 	text-align: center;
 	font-family: sans-serif;
     font-family: "Roboto";
@@ -68,21 +68,10 @@ a {
 .bookmark-set {
 	max-height: 25%;
 	width: 100%;
-	background-color: #353A51;
+	background-color: #282828;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	transition: height 250ms ease;
-}
-
-.bookmark-inner-container {
-	min-width: 60%;
-	max-height: 70%;
-	display: flex;
-	align-items: start;
-	justify-content: start;
-	flex-direction: column;
-	flex-wrap: wrap;
 	transition: height 250ms ease;
 }
 
@@ -93,47 +82,47 @@ a {
 }
 
 #title1 {
-  background: linear-gradient(to right, #311B92, #00B0FF);
+  background:#00B0FF;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 #line1 {
-	background: linear-gradient(to right, #311B92, #00B0FF, transparent);
+	background:  #00B0FF;
 }
 
 #title2 {
-	background: linear-gradient(to right, #D50000, #F4511E);
+	background:  #F4511E;
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
 #line2 {
-	background: linear-gradient(to right, #D50000, #F4511E, transparent);
+	background: #F4511E;
 }
 
 #title3 {
-  background: linear-gradient(to right, #FF6D00, #FBC02D);
+  background:  #FBC02D;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 #line3 {
-	background: linear-gradient(to right, #FF6D00, #FBC02D, transparent);
+	background:  #FBC02D;
 }
 
 #title4 {
-  background: linear-gradient(to right, #00C853, #8BC34A);
+  background:  #8BC34A;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 #line4 {
-	background: linear-gradient(to right, #00C853, #8BC34A, transparent);
+	background:#8BC34A;
 }
 
 #c-d-sep {
@@ -148,6 +137,6 @@ a {
 
 .bookmark {
 	font-size: 1.2rem;
-	margin: 0.3rem 1rem;
+	margin: 0.3rem;
 	padding: 3px;
 }
